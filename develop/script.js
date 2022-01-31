@@ -77,3 +77,55 @@ function checkAnswer(event) {
 
 // win/lose condition
 function gameOver() {}
+
+// Questions database
+
+const questions = [
+  {
+    question: "Commonly used data types DO not include:",
+    answers: [
+      { text: "Strings", correct: false },
+      { text: "Booleans", correct: false },
+      { text: "Alerts", correct: true },
+      { text: "Numbers", correct: false },
+    ],
+  },
+  {
+    question: "The condition in an if/else statement is enclosed with:",
+    answers: [
+      { text: "Quotes", correct: false },
+      { text: "Parenthesis", correct: true },
+      { text: "Curly brackets", correct: false },
+      { text: "Square brackets", correct: false },
+    ],
+  },
+  {
+    question: "Arrays in JavaScript can be used to store:",
+    answers: [
+      { text: "Numbers and strings", correct: false },
+      { text: "Other arrays", correct: false },
+      { text: "Booleans", correct: false },
+      { text: "All of the above", correct: true },
+    ],
+  },
+  {
+    question:
+      "String values must be enclosed within ____ when being assigned to variables.",
+    answers: [
+      { text: "Quotes", correct: true },
+      { text: "Curly brackets", correct: false },
+      { text: "Parenthesis", correct: false },
+      { text: "Commas", correct: false },
+    ],
+  },
+  {
+    question:
+      "A very useful tool used during development and debugging for printing content to the debugger is:",
+    answers: [
+      { text: "JavaSvript", correct: false },
+      { text: "Terminal/bash", correct: false },
+      { text: "For loops", correct: false },
+      { text: "console.log", correct: true },
+    ],
+  },
+];
