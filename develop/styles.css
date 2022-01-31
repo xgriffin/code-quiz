@@ -47,3 +47,70 @@ h1 {
   font-weight: bold;
   padding: 10px;
 }
+
+.wrongAnswer {
+  background-color: firebrick;
+}
+
+.rightAnswer {
+  background-color: green;
+}
+
+.navBtn {
+  border: 1.5px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 10px;
+  flex: 1;
+}
+
+.navBtn:hover {
+  border-color: cornflowerblue;
+  box-shadow: 5px 5px 5px cornflowerblue;
+}
+
+.btn:hover {
+  background-color: cornflowerblue;
+}
+
+#topNavWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navigationContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#questionsContainer {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 5px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#highScoresBtn:hover {
+  border-color: cornflowerblue;
+  box-shadow: 5px 5px 5px cornflowerblue;
+}
+#highScoresContainer {
+  margin-top: auto;
+}
+#timerContainer {
+  margin-right: 20%;
+  margin-top: auto;
+}
+
+.hide {
+  display: none;
+}
