@@ -12,7 +12,7 @@ A website that presents the user with a functional coding quiz.
 https://xgriffin.github.io/code-quiz/
 
 ## Screenshot
-![](screenshot.png)
+![](/develop/Screenshot.png)
 
 ## Contribution
 Made by Griffin H
