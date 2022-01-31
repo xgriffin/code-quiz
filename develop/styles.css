@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(38, 43, 43);
+}
+
+.main {
+  width: 800px;
+  background-color: lightgrey;
+  max-width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#answersContainer {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  margin: 20px 0;
+  padding-bottom: 5px;
+}
+
+.btn {
+  border: 1.5px solid black;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
